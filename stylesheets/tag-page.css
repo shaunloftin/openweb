@@ -1,0 +1,245 @@
+/* All code written and expressed is property of the LMHS Web Design Team */
+
+#box1 {
+    background-size:100%;;
+    height:50%;
+    top:10%;
+    color:ghostwhite;
+    white-space: nowrap;
+}
+
+#box2 {
+    height:80%;
+    top:60%;
+    background-color:#EFF6F7;
+}
+
+#box3 {
+    background-size: 100%;
+    height:80%;
+    top:140%;
+}
+
+#box4 {
+    background-color:#E1E8E2;
+    height:80%;
+    top:220%;
+}
+
+footer {
+    top:300%;
+}
+
+#box3 h1 {
+    color:ghostwhite;
+    letter-spacing: 1px !important;
+}
+
+#box3 ul {
+    color: ghostwhite;
+    padding-top:10px;
+    font-size: 1.3em;
+}
+
+#box3 ul h3 {
+    font-weight:600;
+}
+
+#box3 li {
+    padding:4px;
+}
+
+#box1 h1 {
+    font-size:4em;
+    color:ghostwhite;
+    letter-spacing: 3.7px;
+    /* Fade In Animation, Written By Shaun Loftin */
+    opacity: 0;
+    -webkit-animation: fadein 1s ease-in forwards;
+    -moz-animation: fadein 1s ease-in forwards;  /* Firefox < 16 */
+    -ms-animation: fadein 1s ease-in forwards; /* Internet Explorer */
+    -o-animation: fadein 1s ease-in forwards; /* Opera < 12.1 */
+    animation: fadein 1s ease-in forwards;
+    animation-delay: 0.75s;
+}
+
+
+#box1 h2 {
+    font-size:2.75em;
+    color:ghostwhite;
+    letter-spacing: 0;
+    white-space: normal;
+    text-align: center;
+    padding-top: .75%;
+    /* Fade In Animation, Written By Shaun Loftin */
+    opacity: 0;
+    -webkit-animation: fadein 1s ease-in forwards;
+    -moz-animation: fadein 1s ease-in forwards; 
+    -ms-animation: fadein 1s ease-in forwards; 
+    -o-animation: fadein 1s ease-in forwards; 
+    animation: fadein 1s ease-in forwards;
+    animation-delay: 2s;
+}
+
+/* Animation Keyframing w/ Redundancy for All Browsers, Shaun Loftin */
+
+@keyframes fadein {
+    from {opacity:0;}
+    to   {opacity:1;}
+}
+@-moz-keyframes fadein {
+    from {opacity:0;}
+    to   {opacity:1;}
+}
+@-webkit-keyframes fadein {
+    from {opacity:0;}
+    to   {opacity:1;}
+}
+@-ms-keyframes fadein {
+    from {opacity:0;}
+    to   {opacity:1;}
+}
+
+@-o-keyframes fadein {
+    from {opacity:0;}
+    to   {opacity:0;}
+}
+
+#box1 h2 span {
+    color:#0c9447;
+}
+
+h6 {
+    right:0;
+    bottom:0;
+    position: absolute;
+    text-align: right;
+    color: ghostwhite;
+    font-size: .75em;
+}
+
+#box3 hr {
+    border:0;
+    background-color: ghostwhite;
+    position: absolute;
+    color:ghostwhite;
+    left:50%;
+    width:1px;
+    height:75%;
+    top:12.5%;
+}
+
+.tag-block-left {
+    width:45%;
+    position: absolute;
+    height:100%;
+    left:0;
+    top:0;
+}
+
+.tag-block-left p {
+    color:ghostwhite;
+    padding-top:10px;
+    letter-spacing: .2px;
+}
+
+#box3 h1 {
+    letter-spacing: 1.5pt;
+}
+
+.tag-block-right {
+    width:45%;
+    position: absolute;
+    height:100%;
+    left:55%;
+    top:0;
+}
+
+@media (max-width:800px) {
+    #box3 .tag-block-left {
+        display: none;
+    }
+    
+    #box3 hr {
+        display: none;
+    }
+    
+    #box3 .tag-block-right {
+        left:10%;
+        width:80%;
+    }
+    
+    #box3 .tag-block-right ul {
+        font-size: .70em;
+    }
+    
+    #box1 h1 {
+        font-size: 1.8em;
+        letter-spacing: 2.7px;
+    }
+    
+    #box1 h2 {
+        font-size: 1em;
+        padding-top: 20px;
+    }
+    
+    #box1 h6 {
+        display: none;
+    }
+    
+    #box3 p {
+        display: inherit !important;
+        font-size: .4em;
+    }
+    
+    #box2 h1 {
+        font-size:1em !important;
+        letter-spacing: 1px !important;
+    }
+    
+    #box2 h2 {
+        font-size:.8em !important;
+    }
+    
+    .right-block {
+        margin-top: -20px !important;
+    }
+    
+    #box3 h1 {
+        font-size:.77em;
+        letter-spacing: .5px !important;
+    }
+    
+    footer .top-text {
+        display: none;
+    }
+    
+    footer .bottom-text {
+        margin-top: -50px;
+    }
+    
+    #box3 h6 {
+        opacity: 0;
+    }
+    
+    #box4 h1 {
+        font-size:1em !important;
+        letter-spacing: 1px !important;
+    }
+    
+    #box4 h2 {
+        font-size:.8em !important;
+    }
+}
+
+@media (min-width: 801px) and (max-width:850px) {
+    .content-tags {
+        visibility: hidden;
+    }
+    
+    h6 {
+        visibility: hidden;
+    }
+    
+    
+}

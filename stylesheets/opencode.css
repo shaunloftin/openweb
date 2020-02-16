@@ -1,0 +1,173 @@
+@media (max-width:800px) {
+    #desktop-wrapper {
+        display: none;
+        visibility: hidden;
+    }
+    
+    #mobile-wrapper {
+        visibility: visible;
+    }
+}
+
+@media (min-width:801px) {
+    #mobile-wrapper {
+        visibility: hidden;
+    }
+}
+
+#alert-box {
+    width:100%;
+    height:90%;
+    top:10%;
+}
+
+#alert-box * {
+    text-align: center;
+}
+
+#alert {
+    clear: both;
+    margin-bottom: 10px;
+    font-size: 15em;
+    color:#DE4738;
+}
+
+#box1 {
+    height:20%;
+    top:10%;
+    background-color:#DE4738;
+}
+
+#box1 * {
+    -webkit-animation: fadein 2s; 
+       -moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s; 
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.content-box a {
+    color:dimgrey;
+}
+
+.content-box a:hover {
+    color:#DE4738;
+}
+
+.content-box a:visited {
+    color:#CA4133;
+}
+
+#box1 .content-wrapper * {
+    top:16%;
+    position: relative;
+}
+
+#box1 h1 {
+    letter-spacing: .2px;
+    font-weight: 600;
+}
+
+#box1 h3 {
+    font-weight: 300;
+}
+
+#box2 {
+    height:30%;
+    top:30%;
+    background-color:#FDFDFF;
+}
+
+#box3 {
+    height:25%;
+    top:60%;
+    background-color:#2E2E2E;
+    color:#FFF;
+}
+
+#box3 p {
+    margin-top: 2px;
+    font-size: 1em;
+}
+
+#box3 i {
+    font-weight: 700;
+    color:#DE4738;
+}
+
+#box4 {
+    height:30%;
+    top:85%;
+    background-color:ghostwhite;
+}
+
+#box5 {
+    height:25%;
+    top:115%;
+    background-color:green;
+    color:#FFF;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+#box5 p {
+    top:10%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#box5 span {
+    font-size: 2em;
+}
+
+#box5 article {
+    text-align: right;
+}
+
+#box6 {
+    height:30%;
+    top:140%;
+    background-color:#F9F9FF;
+}
+
+#box2 .left-block div {
+    padding-bottom:5px;
+}
+
+#box4 .content-wrapper div {
+    padding-bottom:5px;
+}
+
+#box6 .content-wrapper div {
+    padding-bottom:5px;
+}
+
+footer {
+    top:170%;
+}

@@ -1,0 +1,95 @@
+/* All code written and expressed is property of the LMHS Web Design team */
+
+@media (max-width:800px) {
+    #menu-open {
+        opacity: 1;
+    }
+    
+    #sticky-header {
+        height:10%;
+    }
+    
+    .left-block h2 {
+        width:200%
+    }
+    
+    #block2 .left-block {
+        margin:0 !important;
+        text-align: left;
+    }
+    
+    footer * {
+        font-size:.96em;
+    }
+    
+    footer .content-info {
+        bottom:10px;
+        font-size: .7em;   
+    }
+    
+    footer i {
+        font-size: .6em !important;
+        padding:15%;
+    }
+    
+    footer nav {
+        left:0% !important;
+        width:100%;
+    }
+    .content-wrapper {
+        width:90% !important;
+        left:5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+    }
+    
+    header hr {
+        display: none;
+    }
+    
+    .content-blocks h4, p {
+        display:none;
+    }
+    
+    footer p {
+        display:table-cell;
+    }
+
+    .content-blocks .left-block {
+        clear:right;
+        
+    }
+
+    .content-blocks h2 {
+        color:#DE4738;
+    }   
+    
+    .content-blocks .right-block  {
+        max-height:80%;
+        overflow:visible !important;
+        top:40px;
+        width:100%;
+        float:left !important;
+        left:0 !important;
+    }
+
+    .content-blocks #block2 .right-block  {
+        max-height:80%;
+        top:40px;
+        width:100%;
+        float:left !important;
+        left:0 !important;
+    }
+}
+
+@media (min-width: 801px) and (max-width:1200px) {
+    .content-wrapper {
+        width:90% !important;
+        left:5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+    }
+}
+

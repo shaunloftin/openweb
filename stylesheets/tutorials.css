@@ -1,0 +1,117 @@
+/* All code written and expressed is property of the LMHS Web Design Team */
+
+#box1 {
+    height:50%;
+    top:10%;
+    background: url('../assets/jquery-b1.png') no-repeat fixed;
+    background-size:100%;
+    color:ghostwhite;
+}
+
+#box1 h1 {
+    margin-top:6.5%;
+    font-size: 6em;
+    margin-bottom: -10px;
+}
+
+#box1 h3 {
+    font-size:2em;
+}
+
+#box3 i:hover {
+    color:#de4738;
+}
+
+h6 {
+    right:0;
+    bottom:0;
+    position: absolute;
+    text-align: right;
+    color: ghostwhite;
+    font-size: .75em;
+}
+
+.tag-description {
+    padding-top:15px;
+}
+
+.tag-description span {
+    font-size:2em;
+    padding:2px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.description h3 {
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.tag-description section {
+    width:100%;
+    height:75px;
+    position:relative;
+    left:0;
+    display:table;
+}
+
+.description i {
+    position: relative;
+}
+
+#box2 .content-tags {
+    font-size: 1em !important;
+    padding-top:0;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.content-tags p {
+    padding:15px;
+}
+
+.content-tags {
+    width:auto;
+}
+
+#box2 {
+    height:100%;
+    top:60%;
+    background: url('../assets/timb1s.svg') no-repeat;
+    background-size:cover;
+}
+
+#box2 section:nth-child(even) * {
+    float: right;
+}
+
+#box3 {
+    top:160%;
+    height:50%;
+}
+
+#box3 h1 {
+    letter-spacing: 1px;
+}
+
+#box3 i {
+    font-size: 15em;
+}
+
+footer {
+    top:210%;
+}
+
+#box1 h1 {
+    letter-spacing: 2px;
+}
+
+#box2 h1 {
+    letter-spacing: 1px;
+}
+
+#box2 .content-tags {
+    margin-right: 10px;
+}
+}
+

@@ -1,0 +1,9 @@
+#box1 {
+    background: url("../../assets/mobile-b1.png") fixed no-repeat;
+    background-position: center;
+}
+
+#box3 {
+    background: url("../../assets/mobile-b2.png") fixed no-repeat;
+    background-position: bottom center;
+}

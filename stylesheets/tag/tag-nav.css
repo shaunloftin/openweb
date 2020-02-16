@@ -1,0 +1,10 @@
+#box1 {
+    background: url("../../assets/nav-b1.png") fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box3 {
+    background: url("../../assets/nav-b2.png") fixed no-repeat;
+    background-position: center;
+}

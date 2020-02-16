@@ -1,0 +1,174 @@
+/* All code written and expressed is property of the LMHS Web Design team */
+#box1 {
+    height:65%;
+    top:10%;
+    background-color:black;
+    color:ghostwhite;  
+}
+
+#box1 iframe {
+    height:100%;
+    width:70%;
+    left:15%;
+    vertical-align: middle;
+    position: absolute;
+    
+}
+
+#box2 .content-wrapper {
+    top:2%;
+}
+
+#box2 h3 {
+    color:dimgrey;
+    letter-spacing: 1.5px;
+}
+
+#box2 {
+    height:45%;
+    width:100%;
+    top:75%;
+    background-color:#EFF6F7;
+}
+
+#box3 {
+    height:80%;
+    width:100%;
+    top:120%;
+    background-color:lightgrey;
+}
+        
+footer {
+    top:200%;
+}
+
+nav.social-icons {
+    width:40%;
+    left:0;
+    position: absolute;
+    display: table;
+    font-size:3em;
+    margin-top: -10px;
+}
+
+nav.social-icons div {
+    width:auto;
+    height:100%;
+    display: table-cell;
+}
+
+nav.social-icons a:hover {
+    color:#DE4738;
+}
+
+#box2 div p {
+    display: inline-block;
+    position: absolute;
+    padding-top: 4em;
+}
+
+
+#box2 .content-tags {
+    height:10%;
+    float:left;
+    max-height: 10%;
+    position: absolute;
+    padding: 0;
+}
+
+.content-tags {
+    margin-top:1%;
+    width:50%;
+    height:auto;
+    left:0;
+    float:left;
+}
+
+.content-tags p {
+    padding: 3%;
+    border-radius: 6px;
+    position: relative;
+    background-color: black;
+    color:ghostwhite;
+    float:left;
+}
+
+.content-tags p:hover {
+    background-color:#DE4738;
+}
+
+/* Related Code */
+
+.content-blocks {
+    width:100%;
+    position:absolute;
+    display:table-cell;
+    height:90%;
+}
+
+.left-block {
+    width:40%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.left-block p { margin-right: 5%; font-size:.85em }
+
+
+#block2 .left-block p { margin-right: 0; margin-left:7%;}
+
+#block2 .left-block h4 { margin-left:7%;}
+
+#block2 .left-block {
+    right:-60% !important;
+    position: absolute;
+    top:0;
+}
+
+#block2 .content-tags { float:right; }
+#block2 .content-tags p { float:right;}
+
+#block2 .right-block {
+    left:-40% !important;
+    position: absolute;
+    top:0;
+}
+
+.right-block {
+    width:60%;
+    height:100%;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.right-block div {
+    background-color: black;
+    height:100%;
+    width:100%;
+}
+
+#block1 {
+    width:100%;
+    position:absolute;
+    height:30%;
+    top:0;
+}
+
+#block2 {
+    width:100%;
+    position:absolute;
+    height:30%;
+    top:33.33%;
+    text-align: right;
+}
+
+#block3 {
+    width:100%;
+    position:absolute;
+    height:30%;
+    top:66.66%;
+}
+

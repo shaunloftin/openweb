@@ -1,0 +1,102 @@
+/* All code written and expressed is property of the LMHS Web Design team */
+
+#box1 {
+    height:70%;
+    top:10%;
+    background: url('../assets/design-b1.png') fixed no-repeat;
+    background-size: cover;
+}
+
+#box2 {
+    height:10%;
+    top:80%;
+    background-color:#DE4738;
+    display: table;
+}
+
+.highlight {
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top:30%;
+}
+
+#box2 h1 {
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 300;
+    color:ghostwhite;
+    font-size: 1.5em;
+}
+
+#box3 {
+    height:50%;
+    top:90%;
+    min-height: 480px;
+    background-color: #FCFDFD;
+}
+
+#box4 {
+    height:50%;
+    top:140%;
+    min-height: 480px;
+    background-color: #F5FAFA;
+}
+
+#box5 {
+    height:50%;
+    top:190%;
+    min-height: 480px;
+    background-color:#EFF6F7;
+}
+
+#box6 {
+    height:45%;
+    top:240%;
+    background: url('../assets/timb1s.svg') no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#box6 h1 {
+    letter-spacing: 1px;
+}
+
+#box6 p {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#box6 form {
+    padding-bottom:5px;
+    left:0;
+    position: absolute;
+    width:65%;
+    height:40%;
+}
+
+#box6 input {
+    height:50px;
+    width:60%;
+    margin-bottom: 15px;
+}
+
+iframe {
+    width:60%;
+    height:100%;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.content-frame * {
+    width:35%;
+    height:100%;
+    right:0;
+    position: absolute;
+    text-align: right;
+}
+
+
+footer {
+    top:285%;
+}

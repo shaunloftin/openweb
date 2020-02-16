@@ -1,0 +1,50 @@
+#box2 #block1 .right-block img {
+    top:-90%;
+}
+
+#box4 #block1 .right-block img {
+    top:-13%;
+}
+
+#box4 #block2 .right-block img {
+    top:-20%;
+}
+
+#box4 #block3 .right-block img {
+    top:-20%;
+}
+
+#box1 {
+    background: url("../../assets/design-b1.png") fixed no-repeat;
+    background-position: center;
+}
+
+#box3 {
+    background: url("../../assets/design-b2.png") fixed no-repeat;
+    background-position: center;
+}
+
+span.color:nth-child(1) {
+    color: #FB372E;
+}
+
+span.color:nth-child(2) {
+    color: #AE25E0;
+}
+
+span.color:nth-child(3) {
+    color: #3655F7;
+}
+
+span.color:nth-child(4) {
+    color: #25E0DB;
+}
+
+span.color:nth-child(5) {
+    color: #2AFB32;
+}
+
+span.color:nth-child(6) {
+    color: #FBBB2E;
+}
+
